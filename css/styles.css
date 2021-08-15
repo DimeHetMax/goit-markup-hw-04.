@@ -272,7 +272,9 @@ body {
 .section-content-item:last-child {
   margin-right: 0px;
 }
-
+img {
+  display: block;
+}
 /* ------------------------------------------------------------ */
 
 .section-team {
