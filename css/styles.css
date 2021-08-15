@@ -123,18 +123,27 @@ body {
 .contacts-list {
   margin-left: auto;
 }
-.contacts-item .link {
+.link-contacts {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  display: flex;
+  align-items: center;
 }
 
 .contacts-item .link:focus,
 .contacts-item .link:hover {
   color: var(--accent-color);
+}
+
+.contacts-item-icon {
+  width: 16px;
+  height: 12px;
+  /* fill: currentColor; */
+  fill: darkgoldenrod;
 }
 /* =============================section=========================== */
 .section-title {
