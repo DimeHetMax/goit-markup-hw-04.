@@ -195,6 +195,10 @@ body {
 }
 .section-lead-list-pic {
   display: flex;
+  margin-bottom: 30px;
+}
+.section-lead-item-pic:not(:last-child) {
+  margin-right: 30px;
 }
 .section-lead-list {
   list-style-type: none;
