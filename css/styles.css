@@ -578,7 +578,12 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
 }
 .social-list-item {
-  fill: currentColor blue;
+  fill: #ffffff;
+  width: 20px;
+  height: 20px;
+}
+.social-list-item-team {
+  fill: #afb1b8;
   width: 20px;
   height: 20px;
 }
@@ -586,4 +591,28 @@ img {
 .social-list-item-link:focus,
 .social-list-item-link:hover {
   background-color: var(--accent-color);
+}
+.social-list-item-link-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-list-item-link-team:focus,
+.social-list-item-link-team:hover {
+  background-color: var(--accent-color);
+}
+.social-list-item-team:hover,
+.social-list-item-team:focus {
+  fill: #ffffff;
+}
+.regular-customers-img:focus,
+.regular-customers-img:hover {
+  fill: var(--accent-color);
+}
+.regular-customers-img {
+  fill: #afb1b8;
 }
