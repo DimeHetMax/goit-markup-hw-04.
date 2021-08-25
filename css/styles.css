@@ -203,6 +203,8 @@ body {
   align-items: center;
   height: 120px;
   margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 .section-lead-list {
   list-style-type: none;
@@ -555,7 +557,7 @@ img {
 .footer-social-list:not(:last-child) {
   margin-right: 10px;
 }
-.section-team-social-list {
+.section-team-social-list:not(:last-child) {
   margin-right: 10px;
 }
 .social-list-item-link {
